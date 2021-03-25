@@ -1,5 +1,5 @@
 {% set name = "e13tools" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: eb879bbb1da72cea4e3fc9eabc5f25fd56eb862c4bb7ddd6158ef68e74dd3bbe
+  sha256: 1c6eab60825a644e4a47f65dc692c0474552c5f0180f2d5a7fc5730e2954d0f5
 
 build:
   number: 0
